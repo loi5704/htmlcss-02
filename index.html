@@ -5,8 +5,418 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/Fonts/stylesheet.css" />
   </head>
-  <body>
-    Project 02
+  <body style="height: 5000px">
+    <!-- Header -->
+    <header class="fixed-header">
+      <div class="content">
+        <a href="#!" class="logo">
+          <img src="/assets/img/Lesson..svg" alt="Logo" />
+        </a>
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="#!">Home</a>
+            </li>
+            <li>
+              <a href="#!">Courses</a>
+            </li>
+            <li>
+              <a href="#!">Pricing</a>
+            </li>
+            <li>
+              <a href="#!">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="actions">
+          <a href="#!" class="btn">Sign Up</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Hero -->
+      <div class="hero">
+        <div class="content">
+          <div class="img-hero">
+            <img
+              src="/assets/img/cach-cam-may-anh-chuyen-nghiep-4.jpg"
+              alt="desc"
+              class="img"
+            />
+            <div class="stats">
+              <div class="information">
+                <div class="icon design-icon">
+                  <img src="/assets/img/Design.svg" alt="Design" />
+                </div>
+                <div class="desc">
+                  <div class="number">20 Courses</div>
+                  <div class="title">UI/UX Design</div>
+                </div>
+              </div>
+              <div class="information">
+                <div class="icon development-icon">
+                  <img src="/assets/img/Development.svg" alt="Design" />
+                </div>
+                <div class="desc">
+                  <div class="number">20 Courses</div>
+                  <div class="title">Development</div>
+                </div>
+              </div>
+              <div class="information">
+                <div class="icon marketing-icon">
+                  <img src="/assets/img/Marketing.svg" alt="Design" />
+                </div>
+                <div class="desc">
+                  <div class="number">30 Courses</div>
+                  <div class="title">Marketing</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-desc">
+            <h1 class="hero-title line-clamp" style="--line-clamp: 3">
+              Learn without limits and spread knowledge.
+            </h1>
+            <p class="desc-title line-clamp" style="--line-clamp: 3">
+              Build new skills for that “this is my year” feeling with courses,
+              certificates, and degrees from world-class universities and
+              companies.
+            </p>
+            <div class="actions">
+              <a href="#!" class="btn hero-btn">See Courses</a>
+              <a href="#!" class="action-btn">
+                <img src="/assets/img/Polygon 2.svg" alt="Play" />
+              </a>
+              <a href="#!" class="watch">Watch Video</a>
+            </div>
+            <p class="desc-stats">Recent engagement</p>
+            <div class="hero-stats">
+              <div class="p stats-first">
+                <strong class="number">50K</strong>
+                <div class="desc-num">Students</div>
+              </div>
+              <div class="p stats-second">
+                <strong class="number">70+</strong>
+                <div class="desc-num">Courses</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Courses-->
+      <div class="courses">
+        <div class="content">
+          <h2 class="courses-title">Our popular courses</h2>
+          <p class="desc-title">
+            Build new skills with new trendy courses and shine for the next
+            future career.
+          </p>
+          <div class="list-courses">
+            <div class="course-item">
+              <img
+                src="/assets/img/nhung-yeu-cau-can-thiet-de-hoc-nhiep-anh-online.jpg"
+                alt="describing-image"
+                class="desc-img"
+              />
+              <div class="item-content">
+                <h3 class="item-title line-clamp" style="--line-clamp: 1">
+                  Basic web design
+                </h3>
+                <p class="desc-item line-clamp" style="--line-clamp: 2">
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+                <div class="price">$120.75</div>
+                <a href="#!" class="btn book-btn">Book Now</a>
+                <div class="review">
+                  <img src="/assets/img/Star 6.svg" alt="stars" />
+                  <div class="num-review">4.5</div>
+                </div>
+              </div>
+            </div>
+            <div class="course-item">
+              <img
+                src="/assets/img/nhiep-anh.jpg"
+                alt="describing-image"
+                class="desc-img"
+              />
+              <div class="item-content">
+                <h3 class="item-title line-clamp" style="--line-clamp: 1">
+                  UI/UX design
+                </h3>
+                <p class="desc-item line-clamp" style="--line-clamp: 2">
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+                <div class="price">$120.75</div>
+                <a href="#!" class="btn book-btn">Book Now</a>
+                <div class="review">
+                  <img src="/assets/img/Star 6.svg" alt="stars" />
+                  <div class="num-review">4.5</div>
+                </div>
+              </div>
+            </div>
+            <div class="course-item">
+              <img
+                src="/assets/img/khoa-hoc-nhiep-anh-chuyen-nghiep-hoc-vien-nhiep-anh-lavender-viet-nam.jpg"
+                alt="describing-image"
+                class="desc-img"
+              />
+              <div class="item-content">
+                <h3 class="item-title line-clamp" style="--line-clamp: 1">
+                  Web App design
+                </h3>
+                <p class="desc-item line-clamp" style="--line-clamp: 2">
+                  Get the best course, gain knowledge and shine for your future
+                  career.
+                </p>
+                <div class="price">$120.75</div>
+                <a href="#!" class="btn book-btn">Book Now</a>
+                <div class="review">
+                  <img src="/assets/img/Star 6.svg" alt="stars" />
+                  <div class="num-review">4.5</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="move-actions">
+            <div class="move-btn action-btn">&lt</div>
+            <div class="move-btn action-btn">&gt</div>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial -->
+      <div class="testimonial">
+        <div class="content">
+          <div class="test-info">
+            <img
+              src="/assets/img/avatar-generations_hugw.jpg"
+              alt="avatar"
+              class="avatar"
+            />
+            <div class="name">Peter Moor</div>
+            <div class="job">Student of Web Design</div>
+            <div class="page-choice">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+          <p class="comment">
+            Not only does my resume look impressive—filled with the names and
+            logos of world-class institutions—but these certificates also bring
+            me closer to my career goals by validating the skills I've learned."
+          </p>
+        </div>
+      </div>
+      <!-- Features -->
+      <div class="features">
+        <div class="content">
+          <img
+            src="/assets/img/coder-la-gi-6(1).jpg"
+            alt="Image"
+            class="features-img img-first"
+          />
+          <img
+            src="/assets/img/cach-cam-may-anh-chuyen-nghiep-4.jpg"
+            alt="Image"
+            class="features-img img-second"
+          />
+          <div class="desc-features">
+            <h1 class="features-title">
+              Learner outcomes through our awesome platform
+            </h1>
+            <p class="desc-title">
+              87% of people learning for professional development report career
+              benefits like getting a promotion, a raise, or starting a new
+              career.
+            </p>
+            <p class="bonus-desc-title">Lesson Impact Report (2022)</p>
+            <a href="#!" class="btn features-btn">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <!-- CTA -->
+      <div class="cta">
+        <div class="content">
+          <div class="cta-info">
+            <h1 class="cta-title">
+              Take the next step toward your personal and professional goals
+              with Lesson.
+            </h1>
+            <div class="desc-cta">
+              Take the next step toward. Join now to receive personalized and
+              more recommendations from the full Coursera catalog.
+            </div>
+            <a href="#!" class="btn ctn-btn">Join Now</a>
+          </div>
+          <img
+            src="/assets/img/thi_tuyen_ki_su_lap_trinh_2_samsung.jpg"
+            alt=""
+            class="cta-img"
+          />
+        </div>
+      </div>
+      <!-- Blog -->
+      <div class="blog">
+        <div class="content">
+          <div class="blog-title">
+            <h2 class="title">Our blog</h2>
+            <p class="desc-title">
+              Read our regular travel blog and know the latest update of tour
+              and travel
+            </p>
+          </div>
+          <div class="list-blog">
+            <div class="blog-item">
+              <img src="/assets/img/2-10.png" alt="image" class="blog-img" />
+              <div class="item-info">
+                <div class="date">
+                  <div class="point"></div>
+                  <div class="valid">21 November 2021</div>
+                </div>
+                <div class="line"></div>
+                <div class="info-title line-clamp" style="--line-clamp: 2">
+                  How to become a pro web designer in 2022 and get remot job?
+                </div>
+                <a href="#!" class="btn blog-btn">Read More</a>
+              </div>
+            </div>
+            <div class="blog-item">
+              <img
+                src="/assets/img/canon-landscape-photography-preparation-tips_1968-1s.jpg"
+                alt="image"
+                class="blog-img"
+              />
+              <div class="item-info">
+                <div class="date">
+                  <div class="point"></div>
+                  <div class="valid">21 November 2021</div>
+                </div>
+                <div class="line"></div>
+                <div class="info-title line-clamp" style="--line-clamp: 2">
+                  How to become a pro web designer in 2022 and get remot job?
+                </div>
+                <a href="#!" class="btn blog-btn">Read More</a>
+              </div>
+            </div>
+            <div class="blog-item">
+              <img
+                src="/assets/img/Ngan-Ha24.jpg"
+                alt="image"
+                class="blog-img"
+              />
+              <div class="item-info">
+                <div class="date">
+                  <div class="point"></div>
+                  <div class="valid">21 November 2021</div>
+                </div>
+                <div class="line"></div>
+                <div class="info-title line-clamp" style="--line-clamp: 2">
+                  How to become a pro web designer in 2022 and get remot job?
+                </div>
+                <a href="#!" class="btn blog-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-choice">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="content">
+        <div class="logo">
+          <img
+            src="/assets/img/Lesson.footer.svg"
+            alt="logo"
+            class="logo-img"
+          />
+          <div class="desc-footer">
+            Need to help for your dream Career? trust us. With Lesson, study
+            becomes a lot easier with us.
+          </div>
+          <div class="icons">
+            <a href="#!"
+              ><img src="/assets/img/twitter.svg" alt="icon" class="icon-item"
+            /></a>
+            <a href="#!"
+              ><img src="/assets/img/f.svg" alt="icon" class="icon-item"
+            /></a>
+            <a href="#!"
+              ><img
+                src="/assets/img/linked_in.svg"
+                alt="icon"
+                class="icon-item"
+            /></a>
+            <a href="#!"
+              ><img
+                src="/assets/img/instagram.svg"
+                alt="icon"
+                class="icon-item"
+            /></a>
+          </div>
+        </div>
+        <div class="list-footer">
+          <div class="list-footer-item">
+            <div class="footer-title">Company</div>
+            <div class="line"></div>
+            <div class="list-item">
+              <div class="footer-item">About Us</div>
+              <div class="footer-item">Features</div>
+              <div class="footer-item">Our Pricing</div>
+              <div class="footer-item">Latest News</div>
+            </div>
+          </div>
+          <div class="list-footer-item">
+            <div class="footer-title">Support</div>
+            <div class="line"></div>
+            <div class="list-item">
+              <div class="footer-item">FAQ’s</div>
+              <div class="footer-item">Terms & Conditions</div>
+              <div class="footer-item">Privacy Policy</div>
+              <div class="footer-item">Contact Us</div>
+            </div>
+          </div>
+          <div class="list-footer-item">
+            <div class="footer-title">Address</div>
+            <div class="line"></div>
+            <div class="list-item">
+              <div class="item location">
+                <strong>Location:</strong> 27 Division St, New York, NY 10002,
+                USA
+              </div>
+              <div class="item email">
+                <strong>Email:</strong
+                ><a href="mailto:email@gmail.com"> email@gmail.com</a>
+              </div>
+              <div class="item phone">
+                <strong>Phone:</strong
+                ><a href="tel:000 1234 567 890"> 000 1234 567 890</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="end-title">
+        Copyright ©2022 webdesign.gdn All rights reserved
+      </div>
+    </footer>
   </body>
 </html>
